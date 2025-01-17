@@ -1,0 +1,15 @@
+[project]
+name = "capture"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=0.3.0",
+    "ollama>=0.4.7",
+    "psutil>=6.1.1",
+    "yomitoku>=0.7.1",
+]
+
+[tool.uv.workspace]
+members = ["tmp/local_llm", "scripts/watch_prompt", "scripts/ocr_test"]

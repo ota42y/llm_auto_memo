@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>WorkingDirectory</key>
+    <string>WRITE_YOUR_PATH</string>
+    <key>Label</key>
+    <string>com.ota42y.capturescreen</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>./capture_screen.sh</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>120</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.ota42y.capturescreen.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.ota42y.capturescreen.out</string>
+</dict>
+</plist>

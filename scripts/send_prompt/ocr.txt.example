@@ -1,0 +1,86 @@
+時刻とアプリケーション名、ウィンドウタイトルと画面上に表示されている文字が与えられます。
+
+----
+時刻: 20250201-000000
+アプリケーション名: Visual Studio Code
+ウィンドウタイトル: capture
+
+--
+Φ まだコミットされていません 行29、列5 スペース:4 UTF-8 LF {} Python 3.12.8 ('wenv) B O Prottler
+? Live Share
+main* @
+Q
+folder_path = q.get(block=False)
+71
+logger. info(""load from queue"")
+70
+try:
+69
+return
+68
+logger.info(""stop summary worker"")
+67
+if not active process.is_active() or active_process.stop_tasks_by_power():
+66
+while True:
+65
+def summary_worker(q: 'queue.Queue[str]', active_process: ActiveProsess) -> None:
+64%
+63
+62
+f.write(result)
+61
+with open(save_path, ""w"") as f:
+60
+return
+59
+if not active process. is_active():
+58
+logger. info(f""save summary for {folder_path} to {save_path}"")
+57
+result = send_llm(prompt=prompt, logger=logger)
+56
+55
+f.write(prompt)
+54
+with open(prompt_path, ""w"") as f:
+53
+return
+52
+if not active_process. is_active():
+51
+prompt_path = f""""{summary_dir}/{folder_name}_prompt.txt""
+50
+49
+return
+48
+logger.info(f""skip create summary for {folder_path} because no reports"")
+47
+if prompt == un,
+46
+prompt = build_prompt(reports)
+45
+reports = load_reports(folder_path)
+44
+logger.info(f""start create summary for {folder_path}"")
+43
+42
+return
+41
+logger. info(f""skip create summary for {folder_path "")
+40
+def create_summary(folder_path: str, active_process: ActiveProsess) -> None:
+36
+@ create_summary.py > build_prompt > [e] prompt
+国 output.csv
+@ create_summary.py M ×
+-gltignore U
+>、10日
+----
+
+入力は以上です。
+
+画面に表示されている文字列からどのような作業をしているかを判断し、固有名詞を上げつつ説明してください。
+なお、絶対に理解した内容やアプリケーションの説明、内容に関わらないことについては言及しないでください。
+
+回答は必要最低限に抑え完結にしてください。

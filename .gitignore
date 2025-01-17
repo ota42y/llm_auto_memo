@@ -1,0 +1,15 @@
+__pycache__
+*.pyc
+.venv
+filterd
+images
+intervals
+ocr
+reports
+tmp
+logs
+active_process.txt
+com.*.capturescreen.plist
+com.*.workingnotes.plist
+!com.examples.capturescreen.plist
+!com.examples.workingnotes.plist

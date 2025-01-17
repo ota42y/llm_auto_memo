@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>WORK_SUMMARY_ARCHIVE_DIR</key>
+        <string>WRITE_ARCHIVE_PATH</string>
+        <key>PATH</key>
+        <string>WRITE_YOUR_PATH</string>
+        <key>OPENAI_API_KEY</key>
+        <string>xxxxxxxx</string>
+    </dict>
+    <key>WorkingDirectory</key>
+    <string>WRITE_YOUR_PATH</string>
+    <key>Label</key>
+    <string>com.ota42y.workingnotes</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>./capture_screen.sh</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>120</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.ota42y.workingnotes.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.ota42y.workingnotes.out</string>
+</dict>
+</plist>

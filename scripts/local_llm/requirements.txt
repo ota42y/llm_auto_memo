@@ -1,0 +1,2 @@
+mlx-vlm>=0.1.13
+transformers

@@ -1,0 +1,10 @@
+[project]
+name = "ocr-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "easyocr>=1.7.2",
+    "yomitoku>=0.7.1",
+]
