@@ -20,7 +20,7 @@ def build_archive_path(archive_dir: str, dt: datetime.datetime) -> str:
 def get_latest_added_name(archive_path: str, date_str: str) -> list[datetime.datetime]:
     if not os.path.isfile(archive_path):
         with open(archive_path, "w") as f:
-            f.write(f"${date_str}\n")
+            f.write(f"#{date_str}\n")
         return []
 
     addeds: list[datetime.datetime] = []
