@@ -101,10 +101,10 @@ def remove_duplicate_files(active_process: ActiveProsess) -> None:
             break
 
         # 差分を計算したので、差分の計算もとである一つ前のディレクトリを移動する
-        after_dir = f"{filterd_dir}/{os.path.basename(before_dir)}"
+        after_dir = os.path.join(filterd_dir, os.path.basename(before_dir))
         logger.info(f"check duplitated end so move {before_dir} to {after_dir}")
         if active_process.is_active():
-            shutil.move(before_dir, f"{filterd_dir}/{os.path.basename(before_dir)}")
+            shutil.move(before_dir, after_dir)
         before_dir = now_dir
 
 
